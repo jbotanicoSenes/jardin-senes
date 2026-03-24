@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 
 <html lang="es">
 <head>
@@ -8,16 +8,54 @@
 
 <style>
 body{font-family:Arial;margin:0;background:#f4f4ef}
-header{background:#2e5d3b;color:white;padding:10px;text-align:center}
-.container{padding:15px}
+
+header{
+    background:#2e5d3b;
+    color:white;
+    padding:10px;
+}
+
+.header-container{
+    display:flex;
+    align-items:center;
+}
+
+.header-left{
+    width:30%;
+    text-align:center;
+}
+
+.header-left img{
+    height:50px;
+    width:auto;
+}
+
+.header-right{
+    width:70%;
+    text-align:center;
+}
+
+.container{
+    padding:15px;
+    max-width:900px;
+    margin:auto;
+}
+
 h1{text-align:center;color:#2e5d3b}
-img{
+
+img.foto{
     width:50%;
     display:block;
     margin:15px auto;
     border-radius:10px;
 }
-.card{background:white;padding:10px;margin:10px;border-radius:10px}
+
+.card{
+    background:white;
+    padding:10px;
+    margin:10px 0;
+    border-radius:10px;
+}
 </style>
 
 </head>
@@ -25,40 +63,33 @@ img{
 <body>
 
 <header>
-<h1><header style="display:flex; align-items:center; justify-content:space-between; padding:10px; background:#2e5d3b; color:white;">
+<div class="header-container">
 
-<div style="flex:1;">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Escudo_de_Sen%C3%A9s.svg/120px-Escudo_de_Sen%C3%A9s.svg.png" style="height:60px;">
+<div class="header-left">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Escudo_de_Sen%C3%A9s.svg/120px-Escudo_de_Sen%C3%A9s.svg.png">
+<div style="font-size:12px;">Ayuntamiento de Senés</div>
 </div>
 
-<div style="flex:2; text-align:center;">
-<h1 style="margin:0; font-size:18px;"><header style="display:flex; flex-direction:column; align-items:center; background:#2e5d3b; color:white; padding:10px;">
-
-<img src="escudo.png_page-0001.jpg" style="height:70px; margin-bottom:5px;">
-
-<div style="font-size:12px;">Ayuntamiento de Senés</div>
-
-<h1 style="margin:5px 0 0 0; font-size:26px;">
+<div class="header-right">
+<div style="font-size:18px; font-weight:bold;">
 🌿 Jardín Botánico de Especies Autóctonas de Senés
-</h1>
+</div>
+</div>
 
+</div>
 </header>
-
 
 <div class="container">
 
 <h1>ROMERO</h1>
 <p style="text-align:center;"><em>Rosmarinus officinalis</em></p>
 
-<img src="imagen Romero.jpg">
+<img class="foto" src="imagen Romero.jpg">
 
 <div class="card">
 <h2>Descripción</h2>
 <p>
-El romero (<em>Rosmarinus officinalis</em>) es un arbusto perenne aromático característico del ecosistema mediterráneo, ampliamente distribuido en zonas secas, soleadas y de suelos pobres o calizos. Presenta un porte leñoso, muy ramificado, con hojas estrechas, lineares y persistentes, de color verde oscuro en el haz y blanquecinas en el envés.
-</p>
-<p>
-Su floración puede producirse durante gran parte del año en climas suaves, generando pequeñas flores de tonalidad azulada o violácea, muy apreciadas por su capacidad de atraer polinizadores como abejas, lo que lo convierte en una especie clave dentro del equilibrio ecológico del matorral mediterráneo.
+El romero (<em>Rosmarinus officinalis</em>) es un arbusto perenne aromático característico del ecosistema mediterráneo, ampliamente distribuido en zonas secas, soleadas y de suelos pobres o calizos.
 </p>
 </div>
 
@@ -67,18 +98,13 @@ Su floración puede producirse durante gran parte del año en climas suaves, gen
 <ul>
 <li>Tipo: Arbusto perenne</li>
 <li>Altura: 0,5 – 1,5 metros</li>
-<li>Hojas: Pequeñas, lineares, aromáticas y persistentes</li>
-<li>Floración: Azul o violeta, frecuente en invierno y primavera</li>
-<li>Resistencia: Muy alta a la sequía</li>
+<li>Hojas: Aromáticas y persistentes</li>
+<li>Floración: Azul o violeta</li>
 </ul>
 </div>
 
-<div class="card">
-<h2>Hábitat</h2>
-<p>
-Se desarrolla de forma natural en zonas de clima mediterráneo, especialmenteen laderas soleadas, terrenos pedregosos y suelos calizos con escasa materia orgánica. Es una especie muy adaptada a condiciones de aridez, altas temperaturas y exposición directa al sol, formando parte habitual de matorrales y monte bajo.
+</div>
 
-<div class="card">
-<h2>El romero en Senés</h2>
-<p>
-Javi el de José Sola nos lo va a explicar muy bien....  Viva el Atleti¡¡¡¡¡    
+</body>
+</html>
+
