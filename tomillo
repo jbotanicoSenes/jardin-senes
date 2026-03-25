@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Romero</title>
+
+<style>
+body{font-family:Arial;margin:0;background:#f4f4ef}
+
+.container{
+    padding:15px;
+    max-width:900px;
+    margin:auto;
+}
+
+h1{text-align:center;color:#2e5d3b}
+
+img.foto{
+    width:50%;
+    display:block;
+    margin:15px auto;
+    border-radius:10px;
+}
+
+.card{
+    background:white;
+    padding:10px;
+    margin:10px 0;
+    border-radius:10px;
+}
+@media (max-width: 600px) {
+
+.bloque-escudo{
+position:static !important;
+transform:none !important;
+margin-bottom:10px;
+}
+
+.logo-turistico{
+margin-top:10px;
+height:40px;
+}
+
+header{
+padding:15px 10px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header style="background:#2e5d3b; color:white; padding:25px 10px; position:relative; text-align:center;">
+
+<!-- BLOQUE ESCUDO -->
+
+<div class="bloque-escudo" style="position:absolute; left:10px; top:50%; transform:translateY(-50%); text-align:center;">
+<img src="escudo.png_page-0001.jpg" 
+style="height:60px;">
+<div style="font-size:13px;">Ayuntamiento de Senés</div>
+</div>
+
+<!-- TITULO -->
+
+<div style="font-size:22px; font-weight:bold; margin-bottom:10px;">
+JARDIN BOTANICO DE ESPECIES AUTOCTONAS DE SENES
+</div>
+
+<!-- LOGO TURISTICO -->
+
+<img class="logo-turistico" src="Senés-enamora.png" style="height:45px;">
+
+</header>
+
+
+
+<div class="container">
+
+<h1>ROMERO</h1>
+<p style="text-align:center;"><em>Rosmarinus officinalis</em></p>
+
+<img class="foto" src="imagen Romero.jpg">
+<div class="card">
+<h2>Descripción</h2>
+<p>
+El romero (<em>Rosmarinus officinalis</em>) es un arbusto perenne aromático típico del ecosistema mediterráneo, ampliamente distribuido en zonas secas, soleadas y de suelos pobres o calizos. Presenta un porte leñoso y muy ramificado, pudiendo alcanzar hasta 1,5 metros de altura en condiciones favorables.
+</p>
+<p>
+Sus hojas son estrechas, lineares y persistentes, de color verde oscuro en el haz y blanquecinas en el envés, lo que le permite reducir la pérdida de agua y adaptarse a climas áridos. Sus flores, generalmente de color azul o violeta, son pequeñas pero muy abundantes y tienen una gran importancia ecológica al atraer a numerosos polinizadores.
+</p>
+</div>
+
+<div class="card">
+<h2>Características</h2>
+<ul>
+<li><strong>Tipo:</strong> Arbusto perenne</li>
+<li><strong>Altura:</strong> 0,5 – 1,5 metros</li>
+<li><strong>Hojas:</strong> Lineares, aromáticas y persistentes</li>
+<li><strong>Floración:</strong> Azul o violeta, frecuente entre invierno y primavera</li>
+<li><strong>Aroma:</strong> Intenso y característico</li>
+<li><strong>Resistencia:</strong> Muy alta a la sequía y a suelos pobres</li>
+<li><strong>Exposición:</strong> Pleno sol</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Hábitat geográfico</h2>
+<p>
+El romero es una especie característica de la región mediterránea, donde crece de forma natural en zonas secas, soleadas y con escasa humedad. Se adapta especialmente bien a suelos pobres, pedregosos y calizos, siendo muy frecuente en laderas, monte bajo y terrenos degradados. Su resistencia a la sequía y a las altas temperaturas lo convierte en una planta dominante en ecosistemas semiáridos como los de la Sierra de los Filabres, donde forma parte esencial del paisaje vegetal.
+</p>
+</div>
+
+<div class="card">
+<h2>Propiedades</h2>
+<p>
+El romero posee numerosas propiedades beneficiosas ampliamente reconocidas desde la antigüedad. Entre ellas destacan sus efectos antioxidantes, antiinflamatorios y digestivos. Tradicionalmente se ha utilizado para mejorar la circulación sanguínea, estimular la memoria y aliviar molestias musculares. Además, contiene aceites esenciales con propiedades antimicrobianas, lo que lo convierte en una planta de gran valor en la medicina natural.
+</p>
+</div>
+
+<div class="card">
+<h2>Simbolismo</h2>
+<p>
+El romero ha tenido un fuerte simbolismo a lo largo de la historia en las culturas mediterráneas. Se ha asociado con la memoria, la fidelidad y la protección. En muchas tradiciones populares, se utilizaba en rituales y celebraciones como símbolo de pureza y recuerdo. También era habitual su uso en hogares para atraer bienestar y proteger frente a influencias negativas.
+</p>
+</div>
+
+<div class="card">
+<h2>Uso tradicional en Senés</h2>
+<p>
+Pues lo que me diga Isa y josé Sola
+</p>
+</div>
+<div class="card">
+<h2>Época de floración</h2>
+<p>
+El romero puede florecer durante gran parte del año en climas mediterráneos suaves, aunque su periodo principal de floración se concentra entre finales de invierno y primavera. Sus flores, de tonalidad azulada o violeta, aparecen en abundancia y constituyen una importante fuente de néctar para insectos polinizadores, especialmente abejas.
+</p>
+</div>
+
+<div class="card">
+<h2>Curiosidades</h2>
+<p>
+El romero es una de las plantas aromáticas más antiguamente utilizadas por el ser humano, con referencias documentadas desde la Antigüedad. Su nombre proviene del latín “ros marinus”, que significa “rocío del mar”, en alusión a su frecuente presencia en zonas costeras.
+</p>
+<p>
+Además, es una planta muy valorada en apicultura, ya que la miel de romero es considerada de alta calidad. En muchas culturas mediterráneas, también se utilizaba para perfumar ambientes y como símbolo de recuerdo en ceremonias y tradiciones populares.
+</p>
+</div>
