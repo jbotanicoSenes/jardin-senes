@@ -30,33 +30,52 @@ img.foto{
     margin:10px 0;
     border-radius:10px;
 }
-</style>
+@media (max-width: 600px) {
 
+.bloque-escudo{
+position:static !important;
+transform:none !important;
+margin-bottom:10px;
+}
+
+.logo-turistico{
+margin-top:10px;
+height:40px;
+}
+
+header{
+padding:15px 10px;
+}
+
+}
+
+</style<
 </head>
 
 <body>
 
 <header style="background:#2e5d3b; color:white; padding:25px 10px; position:relative; text-align:center;">
 
-<!-- ESCUDO IZQUIERDA -->
+<!-- BLOQUE ESCUDO -->
 
-<div style="position:absolute; left:10px; top:50%; transform:translateY(-50%); text-align:center;">
-<img src="escudo.png_page-0001.jpg" 
+<div class="bloque-escudo" style="position:absolute; left:10px; top:50%; transform:translateY(-50%); text-align:center;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Escudo_de_Sen%C3%A9s.svg/120px-Escudo_de_Sen%C3%A9s.svg.png" 
 style="height:60px;">
 <div style="font-size:13px;">Ayuntamiento de Senés</div>
 </div>
 
 <!-- TITULO -->
 
-<div style="font-size:30px; font-weight:bold; margin-bottom:10px;">
+<div style="font-size:22px; font-weight:bold; margin-bottom:10px;">
 JARDIN BOTANICO DE ESPECIES AUTOCTONAS DE SENES
 </div>
 
 <!-- LOGO TURISTICO -->
 
-<img src="Senés-enamora.png" style="height:65px;">
+<img class="logo-turistico" src="senes-enamora.png" style="height:45px;">
 
 </header>
+
 
 
 <div class="container">
