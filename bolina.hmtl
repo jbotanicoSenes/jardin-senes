@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bolina</title>
+
+<style>
+body{font-family:Arial;margin:0;background:#f4f4ef}
+
+.container{
+    padding:15px;
+    max-width:900px;
+    margin:auto;
+}
+
+h1{text-align:center;color:#2e5d3b}
+
+img.foto{
+    width:50%;
+    display:block;
+    margin:15px auto;
+    border-radius:10px;
+}
+
+.card{
+    background:white;
+    padding:10px;
+    margin:10px 0;
+    border-radius:10px;
+}
+
+@media (max-width: 600px) {
+
+.bloque-escudo{
+position:static !important;
+transform:none !important;
+margin-bottom:10px;
+}
+
+.logo-turistico{
+margin-top:10px;
+height:40px;
+}
+
+header{
+padding:15px 10px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header style="background:#2e5d3b; color:white; padding:25px 10px; position:relative; text-align:center;">
+
+<div class="bloque-escudo" style="position:absolute; left:10px; top:50%; transform:translateY(-50%); text-align:center;">
+<img src="escudo.png_page-0001.jpg" style="height:60px;">
+<div style="font-size:13px;">Ayuntamiento de Senés</div>
+</div>
+
+<div style="font-size:22px; font-weight:bold; margin-bottom:10px;">
+JARDIN BOTANICO DE ESPECIES AUTOCTONAS DE SENES
+</div>
+
+<img class="logo-turistico" src="Senés-enamora.png" style="height:45px;">
+
+</header>
+
+<div class="container">
+
+<h1>BOLINA</h1>
+<p style="text-align:center;"><em>Genista umbellata</em></p>
+
+<img class="foto" src="imagen_bolina.jpg">
+
+<div class="card">
+<h2>Descripción</h2>
+<p>
+La bolina (<em>Genista umbellata</em>) es un arbusto perenne característico de los ecosistemas áridos del sureste de la Península Ibérica. Presenta un porte denso y muy ramificado, con tallos rígidos y espinosos que le confieren un aspecto compacto y resistente.
+</p>
+<p>
+Sus hojas son pequeñas o prácticamente inexistentes, adaptándose a la reducción de la pérdida de agua en ambientes secos. Durante la floración, se cubre de pequeñas flores amarillas agrupadas, que aportan un importante valor ecológico al atraer insectos polinizadores.
+</p>
+</div>
+
+<div class="card">
+<h2>Características</h2>
+<ul>
+<li><strong>Tipo:</strong> Arbusto perenne espinoso</li>
+<li><strong>Altura:</strong> 0,5 – 1 metro</li>
+<li><strong>Hojas:</strong> Muy pequeñas o ausentes</li>
+<li><strong>Floración:</strong> Amarilla en primavera</li>
+<li><strong>Aroma:</strong> Suave</li>
+<li><strong>Resistencia:</strong> Muy alta a la sequía y condiciones extremas</li>
+<li><strong>Exposición:</strong> Pleno sol</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Hábitat geográfico</h2>
+<p>
+La bolina se distribuye en zonas áridas y semiáridas del sureste de la Península Ibérica, creciendo en suelos pobres, pedregosos y calizos. Es habitual en laderas soleadas, terrenos degradados y zonas de monte bajo.
+</p>
+<p>
+En áreas como la Sierra de los Filabres, forma parte del matorral mediterráneo adaptado a condiciones extremas, contribuyendo a la estabilidad del suelo y a la biodiversidad del entorno.
+</p>
+</div>
+
+<div class="card">
+<h2>Propiedades</h2>
+<p>
+Tradicionalmente, la bolina ha sido utilizada de forma limitada en la medicina popular, principalmente por sus posibles propiedades antiinflamatorias. Sin embargo, su principal valor reside en su papel ecológico.
+</p>
+<p>
+Es una especie clave en la protección del suelo frente a la erosión y en la regeneración de terrenos degradados.
+</p>
+</div>
+
+<div class="card">
+<h2>Simbolismo</h2>
+<p>
+La bolina simboliza la resistencia y la supervivencia en condiciones extremas. Su capacidad para desarrollarse en suelos pobres y climas áridos la convierte en un ejemplo de adaptación al medio.
+</p>
+<p>
+También representa la fortaleza del paisaje mediterráneo más seco y la capacidad de la naturaleza para persistir en entornos difíciles.
+</p>
+</div>
+
+<div class="card">
+<h2>Uso tradicional en Senés</h2>
+<p>
+En Senés, la bolina es una planta muy conocida del entorno natural, formando parte del paisaje característico de las zonas más secas. Tradicionalmente se ha utilizado como combustible debido a su carácter leñoso.
+</p>
+<p>
+También ha sido valorada como planta protectora del suelo, ayudando a evitar la erosión en terrenos expuestos.
+</p>
+</div>
+
+<div class="card">
+<h2>Época de floración</h2>
+<p>
+La bolina florece principalmente durante la primavera, cubriéndose de pequeñas flores amarillas que destacan en el paisaje árido.
+</p>
+<p>
+Esta floración es importante para los insectos polinizadores, especialmente en entornos donde la vegetación es escasa.
+</p>
+</div>
+
+<div class="card">
+<h2>Curiosidades</h2>
+<p>
+La ausencia o reducción de hojas en la bolina es una adaptación para minimizar la pérdida de agua, sustituyendo su función fotosintética por los tallos.
+</p>
+<p>
+Es una planta muy resistente que puede prosperar en condiciones donde pocas especies sobreviven, siendo clave en la restauración de ecosistemas degradados.
+</p>
+</div>
+
+</div>
+
+</body>
+</html>
+
