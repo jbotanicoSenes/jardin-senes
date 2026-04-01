@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lirio común</title>
+
+<style>
+body{font-family:Arial;margin:0;background:#f4f4ef}
+
+.container{
+    padding:15px;
+    max-width:900px;
+    margin:auto;
+}
+
+h1{text-align:center;color:#2e5d3b}
+
+img.foto{
+    width:50%;
+    display:block;
+    margin:15px auto;
+    border-radius:10px;
+}
+
+.card{
+    background:white;
+    padding:10px;
+    margin:10px 0;
+    border-radius:10px;
+}
+
+@media (max-width: 600px) {
+
+.bloque-escudo{
+position:static !important;
+transform:none !important;
+margin-bottom:10px;
+}
+
+.logo-turistico{
+margin-top:10px;
+height:40px;
+}
+
+header{
+padding:15px 10px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header style="background:#2e5d3b; color:white; padding:25px 10px; position:relative; text-align:center;">
+
+<div class="bloque-escudo" style="position:absolute; left:10px; top:50%; transform:translateY(-50%); text-align:center;">
+<img src="escudo.png_page-0001.jpg" style="height:60px;">
+<div style="font-size:13px;">Ayuntamiento de Senés</div>
+</div>
+
+<div style="font-size:22px; font-weight:bold; margin-bottom:10px;">
+JARDIN BOTANICO DE ESPECIES AUTOCTONAS DE SENES
+</div>
+
+<img class="logo-turistico" src="Senés-enamora.png" style="height:45px;">
+
+</header>
+
+<div class="container">
+
+<h1>LIRIO COMÚN</h1>
+<p style="text-align:center;"><em>Iris germanica</em></p>
+
+<img class="foto" src="imagen_liriocomun.jpg">
+
+<div class="card">
+<h2>Descripción</h2>
+<p>
+El lirio común (<em>Iris germanica</em>) es una planta herbácea perenne muy apreciada en jardines mediterráneos por la belleza de sus flores y su resistencia. Se caracteriza por su crecimiento a partir de rizomas y por su porte elegante.
+</p>
+<p>
+Presenta hojas largas, estrechas y de forma acintada, de color verde grisáceo, que crecen en abanico desde la base. Sus flores son grandes y vistosas, con pétalos de colores variados, siendo el violeta y el púrpura los más frecuentes.
+</p>
+</div>
+
+<div class="card">
+<h2>Características</h2>
+<ul>
+<li><strong>Tipo:</strong> Planta herbácea perenne</li>
+<li><strong>Altura:</strong> 40 – 100 cm</li>
+<li><strong>Hojas:</strong> Largas, acintadas y rígidas</li>
+<li><strong>Floración:</strong> Violeta, púrpura o blanca en primavera</li>
+<li><strong>Aroma:</strong> Suave</li>
+<li><strong>Resistencia:</strong> Alta</li>
+<li><strong>Exposición:</strong> Pleno sol</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Hábitat geográfico</h2>
+<p>
+El lirio común es originario de Europa y se encuentra ampliamente distribuido en jardines y espacios cultivados. Se adapta bien a climas templados y a suelos bien drenados.
+</p>
+<p>
+En zonas como Senés, es frecuente en jardines y espacios ornamentales, donde aporta color y estructura al paisaje vegetal.
+</p>
+</div>
+
+<div class="card">
+<h2>Propiedades</h2>
+<p>
+El lirio ha tenido usos tradicionales en perfumería y medicina, especialmente a partir de sus rizomas. Se le atribuyen propiedades aromáticas y, en algunos casos, aplicaciones en preparados tradicionales.
+</p>
+<p>
+Sin embargo, su uso medicinal es limitado y debe realizarse con conocimiento adecuado.
+</p>
+</div>
+
+<div class="card">
+<h2>Simbolismo</h2>
+<p>
+El lirio simboliza la pureza, la nobleza y la elegancia. A lo largo de la historia ha sido un símbolo cultural en diversas civilizaciones, asociado a la belleza y la perfección.
+</p>
+<p>
+Su forma característica lo convierte en una de las flores más representativas del arte y la tradición.
+</p>
+</div>
+
+<div class="card">
+<h2>Uso tradicional en Senés</h2>
+<p>
+En Senés, el lirio se críaba en las fisuras de las rocas, florece en primavera con flores muy llamativas, bonitas y con perfume agradable, por lo que se utilizaban de forma ornamental, sobre todo en la semana santa.
+</p>
+<p>
+con sus raices se hacían purgantes muy efectivos.
+</p>
+</div>
+
+<div class="card">
+<h2>Época de floración</h2>
+<p>
+El lirio común florece en primavera, produciendo flores grandes y llamativas que aportan color al entorno.
+</p>
+</div>
+
+<div class="card">
+<h2>Curiosidades</h2>
+<p>
+El lirio ha sido símbolo heráldico en diversas culturas, como la flor de lis. Además, sus rizomas han sido utilizados en perfumería tradicional.
+</p>
+<p>
+Es una planta muy valorada por su resistencia y por la belleza de sus flores.
+</p>
+</div>
+
+</div>
+
+</body>
+</html>
