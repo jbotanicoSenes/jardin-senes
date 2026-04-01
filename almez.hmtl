@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Almez</title>
+
+<style>
+body{font-family:Arial;margin:0;background:#f4f4ef}
+
+.container{
+    padding:15px;
+    max-width:900px;
+    margin:auto;
+}
+
+h1{text-align:center;color:#2e5d3b}
+
+img.foto{
+    width:50%;
+    display:block;
+    margin:15px auto;
+    border-radius:10px;
+}
+
+.card{
+    background:white;
+    padding:10px;
+    margin:10px 0;
+    border-radius:10px;
+}
+
+@media (max-width: 600px) {
+
+.bloque-escudo{
+position:static !important;
+transform:none !important;
+margin-bottom:10px;
+}
+
+.logo-turistico{
+margin-top:10px;
+height:40px;
+}
+
+header{
+padding:15px 10px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header style="background:#2e5d3b; color:white; padding:25px 10px; position:relative; text-align:center;">
+
+<div class="bloque-escudo" style="position:absolute; left:10px; top:50%; transform:translateY(-50%); text-align:center;">
+<img src="escudo.png_page-0001.jpg" style="height:60px;">
+<div style="font-size:13px;">Ayuntamiento de Senés</div>
+</div>
+
+<div style="font-size:22px; font-weight:bold; margin-bottom:10px;">
+JARDIN BOTANICO DE ESPECIES AUTOCTONAS DE SENES
+</div>
+
+<img class="logo-turistico" src="Senés-enamora.png" style="height:45px;">
+
+</header>
+
+<div class="container">
+
+<h1>ALMEZ</h1>
+<p style="text-align:center;"><em>Celtis australis</em></p>
+
+<img class="foto" src="imagen_almez.jpg">
+
+<div class="card">
+<h2>Descripción</h2>
+<p>
+El almez (<em>Celtis australis</em>), también conocido como aligonero o lodón, es un árbol caducifolio característico de regiones mediterráneas. Se distingue por su porte elegante y su copa amplia y redondeada.
+</p>
+<p>
+Presenta un tronco recto con corteza lisa de color grisáceo. Sus hojas son ovaladas, ligeramente aserradas y de color verde intenso. Produce pequeños frutos redondeados, de color oscuro al madurar, que son consumidos por la fauna.
+</p>
+</div>
+
+<div class="card">
+<h2>Características</h2>
+<ul>
+<li><strong>Tipo:</strong> Árbol caducifolio</li>
+<li><strong>Altura:</strong> 10 – 20 metros</li>
+<li><strong>Hojas:</strong> Ovaladas, ligeramente dentadas</li>
+<li><strong>Floración:</strong> Poco vistosa en primavera</li>
+<li><strong>Fruto:</strong> Drupa pequeña y oscura</li>
+<li><strong>Resistencia:</strong> Alta</li>
+<li><strong>Exposición:</strong> Sol</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Hábitat geográfico</h2>
+<p>
+El almez se distribuye por la región mediterránea, creciendo en zonas de ribera, laderas y terrenos bien drenados. Prefiere suelos profundos y cierta disponibilidad de humedad.
+</p>
+<p>
+En el entorno de Senés, puede encontrarse en zonas más frescas o cercanas a cursos de agua.
+</p>
+</div>
+
+<div class="card">
+<h2>Propiedades</h2>
+<p>
+El almez ha sido valorado por su madera, flexible y resistente, utilizada tradicionalmente en la fabricación de herramientas agrícolas y utensilios.
+</p>
+<p>
+Sus frutos, aunque pequeños, han sido consumidos de forma ocasional y son importantes para la fauna.
+</p>
+</div>
+
+<div class="card">
+<h2>Simbolismo</h2>
+<p>
+El almez simboliza la flexibilidad y la resistencia, debido a la naturaleza de su madera.
+</p>
+<p>
+También representa la armonía con el entorno natural y la biodiversidad.
+</p>
+</div>
+
+<div class="card">
+<h2>Uso tradicional en Senés</h2>
+<p>
+En Senés, el almez se conoce como "almecino", ha sido utilizado por la calidad de su madera, especialmente en herramientas como horcas o astiles. Hoy día debido a la sequía escasean, antes eran muy numerosos.
+</p>
+<p>
+Entre su propiedades, se dice que las hojas y su fruto es intransigente, antidiarreico y alivia los dolores menstruales. La semilla al madurar se pone negra y es comestible, muy dulce, a los niños les encantaban y además los huesos los utilizaban como proyectiles lanzados con canutos de caña, usando la presión de la boca..
+</p>
+</div>
+
+<div class="card">
+<h2>Época de fructificación</h2>
+<p>
+Los frutos del almez maduran a finales del verano y en otoño.
+</p>
+</div>
+
+<div class="card">
+<h2>Curiosidades</h2>
+<p>
+La madera del almez ha sido muy apreciada por su resistencia y flexibilidad.
+</p>
+<p>
+Es un árbol que contribuye a la biodiversidad al servir de alimento a numerosas especies.
+</p>
+</div>
+
+</div>
+
+</body>
+</html>
